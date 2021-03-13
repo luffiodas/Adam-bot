@@ -102,7 +102,7 @@ lolKey = up.LolHumanKey
 const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + 'FN:JoseAlejandro\n' // Nama
-+ 'ORG: Adam-bot;\n' // Nama bot
++ 'ORG: 𝕬𝖉𝖆𝖒-𝕭𝖔𝖙🍀🌠🌌;\n' // Nama bot
 + 'TEL;type=CELL;type=VOICE;waid=573224426032:+57 322-4426-032\n' // Nomor bot
 + 'END:VCARD' 
 
@@ -1146,7 +1146,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Adambot`
+  quoted: mek, caption: `𝕬𝖉𝖆𝖒-𝕭𝖔𝖙🍀🌠🌌`
 })
 
 } catch {
@@ -1170,7 +1170,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Adambot`
+  quoted: mek, caption: `𝕬𝖉𝖆𝖒-𝕭𝖔𝖙🍀🌠🌌`
 })
 
 } catch {
@@ -1224,7 +1224,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Adambot`
+  quoted: mek, caption: `𝕬𝖉𝖆𝖒-𝕭𝖔𝖙🍀🌠🌌`
 })
 
 break
@@ -1249,7 +1249,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `Adambot`
+quoted: mek, caption: `𝕬𝖉𝖆𝖒-𝕭𝖔𝖙🍀🌠🌌`
   })
   
   } catch {
@@ -1279,7 +1279,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `Adambot`
+quoted: mek, caption: `𝕬𝖉𝖆𝖒-𝕭𝖔𝖙🍀🌠🌌`
   })
   
   } catch {
@@ -1305,7 +1305,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `Adambot`
+quoted: mek, caption: `𝕬𝖉𝖆𝖒-𝕭𝖔𝖙🍀🌠🌌`
   })
   
   } catch {
@@ -1331,7 +1331,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `Adambot`
+quoted: mek, caption: `𝕬𝖉𝖆𝖒-𝕭𝖔𝖙🍀🌠🌌`
   })
   
   } catch {
@@ -3521,7 +3521,7 @@ reply(ind.satukos())
 						fs.unlinkSync(medimg)
 						if (err) return reply('No se pudo hacer :(')
 						buffer = fs.readFileSync(ran)
-						Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: 'Adambot'})
+						Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: '𝕬𝖉𝖆𝖒-𝕭𝖔𝖙🍀🌠🌌'})
 						fs.unlinkSync(ran)
 					})
 					break
